@@ -3,3 +3,33 @@
 @tailwind components;
 
 @tailwind utilities;
+
+
+
+.container-inner {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container-inner {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-inner {
+    max-width: 1100px;
+  
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-inner {
+    max-width: 1100px;
+  }
+
+}
+
+
+@import url(../src/assets/css/fonts.css);
